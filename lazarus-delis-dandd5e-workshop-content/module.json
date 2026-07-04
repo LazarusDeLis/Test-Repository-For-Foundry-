@@ -1,0 +1,166 @@
+{
+  "id": "lazarus-delis-dandd5e-workshop-content",
+  "title": "Lazarus DeLis D&D5e Workshop Content",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>A 5e compendium module handcrafted by DullDev for use by Lazarus DeLis for content that are still a work-in-process.</p>",
+  "authors": [
+    {
+      "name": "DullDev",
+      "flags": {}
+    },
+    {
+      "name": "Lazarus DeLis",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "ldlwc-races",
+      "label": "Races",
+      "path": "packs/ldlwc-races",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ldlwc-backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/ldlwc-backgrounds",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ldlwc-classes-subclasses",
+      "label": "Classes & Subclasses",
+      "path": "packs/ldlwc-classes-subclasses",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ldlwc-feats",
+      "label": "Feats",
+      "path": "packs/ldlwc-feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ldlwc-items",
+      "label": "Items",
+      "path": "packs/ldlwc-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ldlwc-magic-tems",
+      "label": "Magic Items",
+      "path": "packs/ldlwc-magic-tems",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ldlwc-spells",
+      "label": "Spells",
+      "path": "packs/ldlwc-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ldlwc-npcs-monsters",
+      "label": "NPCs & Monsters",
+      "path": "packs/ldlwc-npcs-monsters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ldlwc-vehicles-mounts",
+      "label": "Vehicles / Mounts",
+      "path": "packs/ldlwc-vehicles-mounts",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ldlwc-rules",
+      "label": "Rules",
+      "path": "packs/ldlwc-rules",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ldlwc-tables",
+      "label": "Tables",
+      "path": "packs/ldlwc-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
